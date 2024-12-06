@@ -1,5 +1,5 @@
 
-import AboutGoEDU2 from "@/components/AboutGoEDU2";
+import AboutUsSchool123 from "@/components/AboutUsSchool123";
 
 
 export async function generateMetadata() {
@@ -14,7 +14,7 @@ const About = () => {
   return (
     <>
 
-      <AboutGoEDU2 />
+      <AboutUsSchool123 />
 
      
 

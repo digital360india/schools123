@@ -55,11 +55,13 @@ function FAQ({ categoryData }) {
           <p>
             {isExpanded ? (
               <div
+              style = {{ color:"white"}}
                 className="article-container"
                 dangerouslySetInnerHTML={text}
               />
             ) : (
               <div
+              style = {{ color:"white"}}
                 className="article-container "
                 dangerouslySetInnerHTML={initialText}
               />
@@ -93,7 +95,7 @@ function FAQ({ categoryData }) {
               <ul className="flex flex-col">
                 <li
                   className="bg-white my-2 border-b-[3px] rounded-lg"
-                  style={{ borderColor: "#1B6EA1" }}
+                  style={{ borderColor: "#29705A" }}
                 >
                   <h2
                     className="flex flex-row md:justify-between w-full md:w-[600px] lg:w-[86vw] font-semibold p-3 cursor-pointer"

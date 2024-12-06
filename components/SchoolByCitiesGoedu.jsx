@@ -7,27 +7,27 @@ const SchoolByCitiesGoedu = () => {
   const cities = [
     {
       name: "india",
-      bannerSrc: "/indiaschool.svg",
+      bannerSrc: "/indiaschool1.svg",
       bottomSrc: "/locationbottom.svg",
     },
     {
       name: "mussoorie",
-      bannerSrc: "/mussorie.svg",
+      bannerSrc: "/mussorie1.svg",
       bottomSrc: "/locationbottom.svg",
     },
     {
       name: "dehradun",
-      bannerSrc: "/dehradun.svg",
+      bannerSrc: "/dehradun1.svg",
       bottomSrc: "/locationbottom.svg",
     },
     {
       name: "bangalore",
-      bannerSrc: "/banglore.svg",
+      bannerSrc: "/banglore1.svg",
       bottomSrc: "/locationbottom.svg",
     },
     {
       name: "shimla",
-      bannerSrc: "/shimla.svg",
+      bannerSrc: "/shimla1.svg",
       bottomSrc: "/locationbottom.svg",
     },
   ];
