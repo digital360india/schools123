@@ -55,7 +55,7 @@ const MapSchool123 = () => {
         </div>
 
         <div
-          className={`absolute top-0 left-0 w-full h-[100vh] flex flex-col items-center justify-center  transition-transform duration-[950ms] ease-in-out ${
+          className={`absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center  transition-transform duration-[950ms] ease-in-out ${
             showContent ? "translate-x-0" : "-translate-x-full"
           }`}
           style={{ backgroundImage: `url(${Mapbanner1.src})` }}
