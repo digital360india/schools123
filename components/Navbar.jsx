@@ -95,7 +95,7 @@ const Navbar = () => {
         className="hidden md:block w-full absolute top-0 z-40 bg-background-light"
         
       >
-        <div className="justify-between mx-auto max-w-7xl items-center h-[80px] flex px-6">
+        <div className="justify-between  items-center h-[80px] flex px-6">
           <div className="flex items-center justify-between py-7 ">
             <Link href={"/"}>
               <img
