@@ -60,7 +60,7 @@ export default function Hero({ image, height, need }) {
                   <p className="text-background-dark">Best School</p>
                   <p>for you</p>
                 </div>
-                <div className="text-[#666666]">
+                <div className="text-white">
                   <p>
                     Explore the best Boarding Schools for you, all over India
                   </p>
@@ -81,7 +81,7 @@ export default function Hero({ image, height, need }) {
             <div
               className={`${
                 currentPath === "/" ? " " : "justify-center"
-              } h-[60px] text-[#666666] flex flex-col lg:flex-row gap-10 md:gap-4 `}
+              } h-[60px] text-white flex flex-col lg:flex-row gap-10 md:gap-4 `}
             >
               <div
                 className={` border-background-dark hidden lg:flex border rounded-md relative`}
@@ -105,12 +105,12 @@ export default function Hero({ image, height, need }) {
 
               {isOpen && (
                 <div className="absolute top-[16%] lg:top-[20%] left-[2%] md:left-[10%] lg:left-[40%] bg-white shadow-md w-[400px] h-fit rounded-md z-10 ">
-                  <div className="bg-[#02618f70] h-full rounded-md py-4 px-2">
+                  <div className="bg-background-light h-full rounded-md py-4 px-2">
                     <ul className="p-2 text-[20px]">
-                      <div className="flex justify-between items-center text-[#02618f] p-4">
+                      <div className="flex justify-between items-center text-white p-4">
                         <p className="font-semibold">Choose School Type</p>
                         <div
-                          className="p-2 rounded-full bg-[#02618f] cursor-pointer"
+                          className="p-2 rounded-full bg-background-dark cursor-pointer"
                           onClick={() => setIsOpen(false)}
                         >
                           <RxCross2 size={16} color="white" />
@@ -126,7 +126,7 @@ export default function Hero({ image, height, need }) {
                       ].map((schoolType, index) => (
                         <div key={index}>
                           <li
-                            className="flex items-center p-4 hover:bg-gray-300 rounded-md cursor-pointer"
+                            className="flex items-center p-4 hover:bg-black rounded-md cursor-pointer"
                             onClick={() => handleSelectSchoolType(schoolType)}
                           >
                             <input
@@ -149,12 +149,12 @@ export default function Hero({ image, height, need }) {
 
               {isOpenLocation && (
                 <div className="absolute top-[16%] lg:top-[20%] left-[2%] md:left-[10%] lg:left-[40%] bg-white shadow-md w-[400px] h-[550px] overflow-y-scroll rounded-md z-10 scroll-hidden ">
-                  <div className="bg-[#02618f70] rounded-md py-4 px-2">
+                  <div className="bg-background-light rounded-md py-4 px-2">
                     <ul className="p-2 text-[20px]">
-                      <div className="flex justify-between items-center text-[#02618f] p-4">
+                      <div className="flex justify-between items-center text-white p-4">
                         <p className="font-semibold">Choose Location</p>
                         <div
-                          className="p-2 rounded-full bg-[#02618f] cursor-pointer"
+                          className="p-2 rounded-full bg-background-dark cursor-pointer"
                           onClick={() => setIsOpenLocation(false)}
                         >
                           <RxCross2 size={16} color="white" />
@@ -185,7 +185,7 @@ export default function Hero({ image, height, need }) {
                         return (
                           <div key={index}>
                             <li
-                              className="flex items-center p-4 hover:bg-gray-300 rounded-md cursor-pointer"
+                              className="flex items-center p-4 hover:bg-black rounded-md cursor-pointer"
                               onClick={() =>
                                 handleSelectSchoolLocation(schoolLocation)
                               }

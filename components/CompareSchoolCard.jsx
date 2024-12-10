@@ -159,7 +159,7 @@ const CompareSchoolCard = ({ onSchoolDataFetched }) => {
           </div>
         </div>
       ) : (
-        <div className="relative rounded px-3 p-4 space-y-6 border-r border-[#02618f60] last:border-none">
+        <div className="relative rounded px-3 p-4 space-y-6 border-r border-background-dark  last:border-none">
           <div className="flex justify-center">
             <div className="relative mt-4 w-full h-[170px] flex items-center justify-center">
               <img
@@ -168,7 +168,7 @@ const CompareSchoolCard = ({ onSchoolDataFetched }) => {
               />
               <button
                 onClick={handleCancel}
-                className="absolute top-0 right-0  bg-[#02618f] text-white hover:text-[#02618f] rounded-full p-1 hover:bg-[#fff]"
+                className="absolute top-0 right-0  bg-background-dark text-white hover:text-[#02618f] rounded-full p-1 hover:bg-background-light"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -188,7 +188,7 @@ const CompareSchoolCard = ({ onSchoolDataFetched }) => {
               {schooldetail.name}
             </p>
             <div className="flex justify-center pb-3 sm:pb-0">
-              <button className="px-4 py-2 bg-[#02618f] sm:mb-4 text-white rounded hover:bg-[#02618f90]">
+              <button className="px-4 py-2 bg-background-dark sm:mb-4 text-white rounded hover:bg-background-light">
                 View School
               </button>
             </div>

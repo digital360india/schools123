@@ -18,9 +18,9 @@ export default function CompareCard() {
         Compare By
       </h1>
       <div className="bg-gray-100 py-12 px-20">
-        <div className="max-w-7xl mx-auto border border-[#B8BBC2]">
+        <div className="max-w-7xl mx-auto border border-background-dark ">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5">
-            <div className="hidden lg:block px-3 p-4 space-y-4 border-r border-[#B8BBC2]  last:border-none flex-1 pt-10 ">
+            <div className="hidden lg:block px-3 p-4 space-y-4 border-r border-background-dark   last:border-none flex-1 pt-10 ">
             <h3 className="text-center text-background-dark font-semibold">
               Compare By:
             </h3>
