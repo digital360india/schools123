@@ -11,6 +11,8 @@ export default function ConsultationPopup({ setClose }) {
     email: "",
     phone: "",
     classes: "",
+    source : "Schools123 - https://schools123.vercel.app",
+
   });
 
   const handleChange = (e) => {
@@ -37,6 +39,8 @@ export default function ConsultationPopup({ setClose }) {
           email: "",
           phone: "",
           classes: "",
+          source : "Schools123 - https://schools123.vercel.app",
+
         });
       } else {
         alert("Try again");

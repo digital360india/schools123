@@ -10,6 +10,7 @@ const FormSchool123 = () => {
     name: "",
 
     phone: "",
+    source : "Schools123 - https://schools123.vercel.app",
   });
 
   const handleChange = (e) => {
@@ -34,6 +35,7 @@ const FormSchool123 = () => {
         setFormData({
           name: "",
           phone: "",
+          source : "Schools123 - https://schools123.vercel.app",
         });
       } else {
         alert("Try again");

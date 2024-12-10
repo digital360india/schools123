@@ -12,17 +12,19 @@ export default function Popup() {
     email: "",
     phone: "",
     classes: "",
+    source : "Schools123 - https://schools123.vercel.app",
+
   });
 
   const [isPopupVisible, setIsPopupVisible] = useState(false);
 
-  // useEffect(() => {
-  //   const timer = setInterval(() => {
-  //     setIsPopupVisible(true);
-  //   }, 5000);
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setIsPopupVisible(true);
+    }, 5000);
 
-  //   return () => clearInterval(timer);
-  // }, []);
+    return () => clearInterval(timer);
+  }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -48,6 +50,8 @@ export default function Popup() {
           email: "",
           phone: "",
           classes: "",
+          source : "Schools123 - https://schools123.vercel.app",
+
         });
       } else {
         alert("Try again");
