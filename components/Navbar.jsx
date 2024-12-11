@@ -92,15 +92,15 @@ const Navbar = () => {
   return (
     <div>
       <nav
-        className="hidden md:block w-full absolute top-0 z-40 bg-background-light"
+        className="hidden md:block w-full absolute top-0 z-40 bg-white"
         
       >
         <div className="justify-between  items-center h-[80px] flex px-6">
           <div className="flex items-center justify-between py-7 ">
             <Link href={"/"}>
               <img
-                className="w-14 lg:w-[80px]"
-                src="/goEdulogo.svg"
+                className="w-14 lg:w-[78px]"
+                src="/schools123.png"
                 alt="Logo"
                 width={88}
                 height={56}
@@ -116,7 +116,7 @@ const Navbar = () => {
                 return (
                   <li
                     key={link.name}
-                    className={`text-[#FFFFFF] text-[1rem] py-2 px-2 ${
+                    className={`text-background-dark text-[1rem] py-2 px-2 ${
                       activeButton === link.name.toLowerCase()
                         ? "text-[#FFFFFF] font-semibold rounded-lg"
                         : ""
@@ -151,7 +151,7 @@ const Navbar = () => {
             <Link href={"/"}>
               <img
                 className="w-14 h-14 lg:w-22"
-                src="/footerlogo.svg"
+                src="/schools123.png"
                 alt="Logo"
                 width={1000}
                 height={1000}
@@ -222,7 +222,7 @@ const Navbar = () => {
             <Link href={"/"}>
               <img
                 className="w-[70px] h-[60px]"
-                src="/footerlogo.svg"
+                src="/schools123.png"
                 alt="Logo"
               />
             </Link>

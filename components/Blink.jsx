@@ -61,11 +61,11 @@ export default function Blink() {
           </p>
         </div>
         <Image
-          src="/goEdulogo.svg"
+          src="/schools123.png"
           alt="logo"
           width={1000}
           height={1000}
-          className="w-[50px] h-[50px] z-30"
+          className="w-[55px] h-[55px] z-30 rounded-full"
         />
       </div>
 

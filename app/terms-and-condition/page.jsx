@@ -23,10 +23,10 @@ const TermsAndCondition = () => {
             />
           </div>
           <p className="text-[24px] font-semibold">
-            Welcome to Go Edu&apos;s Terms and Conditions
+            Welcome to Schools123&apos;s Terms and Conditions
           </p>
           <p>
-            Thank you for choosing Go Edu! We&apos;re here to connect students
+            Thank you for choosing Schools123 We&apos;re here to connect students
             and parents with top boarding schools in India through an accessible
             and trustworthy platform. By using our website, you agree to these
             terms, which are designed to ensure a positive, efficient experience
@@ -61,7 +61,7 @@ const TermsAndCondition = () => {
               <p className="text-[20px]  font-bold mb-1">
                 Embracing Responsible Use
               </p>
-              Go Edu is dedicated to helping you make informed educational
+              Schools123is dedicated to helping you make informed educational
               choices. We ask that you engage with our platform respectfully,
               maintaining a safe space for all users.
             </p>
@@ -69,7 +69,7 @@ const TermsAndCondition = () => {
               <p className="text-[20px] font-semibold mb-1">
                 Keeping Services Relevant and Evolving
               </p>
-              To continually meet your needs, Go Edu may enhance or update its
+              To continually meet your needs, Schools123 may enhance or update its
               offerings and features from time to time. Our goal is to provide
               you with the most relevant and valuable services possible.
             </p>
@@ -77,7 +77,7 @@ const TermsAndCondition = () => {
               <p className="text-[20px] font-semibold mb-1">
                 Secure and Personalized Accounts
               </p>
-              When creating an account on Go Edu, rest assured that we&apos;re
+              When creating an account on Schools123, rest assured that we&apos;re
               committed to providing a secure experience. We encourage you to
               keep your login details private for added protection.
             </p>
@@ -85,7 +85,7 @@ const TermsAndCondition = () => {
               <p className="text-[20px] font-semibold mb-1">
                 Trusted Information, Every Time
               </p>
-              Go Edu strives to offer the most accurate and up-to-date
+              Schools123 strives to offer the most accurate and up-to-date
               information on schools, admissions, and related educational
               insights. Our content is regularly updated to reflect the latest
               developments, so you can confidently rely on our resources.
@@ -101,7 +101,7 @@ const TermsAndCondition = () => {
               <p className="text-[20px] font-semibold mb-1">
                 A Commitment to Your Privacy
               </p>
-              Go Edu respects your privacy. All information you provide is
+              Schools123 respects your privacy. All information you provide is
               handled with care, and we&apos;re here to answer any questions
               about how your details are used to enhance your experience.
             </p>{" "}
@@ -109,7 +109,7 @@ const TermsAndCondition = () => {
               <p className="text-[20px] font-semibold mb-1">
                 Quick Corrections and Timely Updates
               </p>
-              If there&apos;s ever an adjustment needed, our team at Go Edu
+              If there&apos;s ever an adjustment needed, our team at Schools123
               promptly updates information to maintain clarity and accuracy for
               all users.
             </p>
@@ -117,7 +117,7 @@ const TermsAndCondition = () => {
               <p className="text-[20px] font-semibold mb-1">
                 Positive Engagement with Content
               </p>
-              At Go Edu, our goal is to support your educational journey. We ask
+              At Schools123, our goal is to support your educational journey. We ask
               that users engage with our site and its content positively,
               keeping the experience beneficial for everyone involved.
             </p>
@@ -133,7 +133,7 @@ const TermsAndCondition = () => {
               <p className="text-[20px] font-semibold mb-1">
                 Fostering a Safe and Trustworthy Platform
               </p>
-              Using Go Edu means joining a community dedicated to genuine
+              Using Schools123 means joining a community dedicated to genuine
               support in the educational journey. We appreciate your role in
               keeping the experience safe and positive for everyone.
             </p>
@@ -141,7 +141,7 @@ const TermsAndCondition = () => {
               <p className="text-[20px] font-semibold mb-1">
                 Adapting to Your Needs
               </p>
-              We value flexibility and growth, so Go Edu&apos;s terms may evolve
+              We value flexibility and growth, so Schools123&apos;s terms may evolve
               to best serve our users. For any major updates, we will make sure
               you&apos;re informed and up-to-date on any adjustments to our
               services.
@@ -157,7 +157,7 @@ const TermsAndCondition = () => {
               Contact Number: 01353530324, 9557695360
              
              <p className="pt-4">
-              Thank you for trusting Go Edu with your educational journey. We
+              Thank you for trusting Schools123 with your educational journey. We
               look forward to supporting you every step of the way
               </p>
             </p>

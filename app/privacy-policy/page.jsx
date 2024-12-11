@@ -24,20 +24,20 @@ export default function page() {
             />
           </div>
           <p className="text-[24px] font-semibold">
-            Welcome to Go Edu&apos;s Privacy Policy
+            Welcome to Schools123&apos;s Privacy Policy
           </p>
           <p>
-            At Go Edu, protecting your privacy is a top priority. This policy
+            At Schools123, protecting your privacy is a top priority. This policy
             outlines the types of information we collect, how it&apos;s used,
             and our commitment to secure your data. It applies specifically to
-            Go Edu&apos;s website and related electronic communications.
+            Schools123&apos;s website and related electronic communications.
           </p>
           <p>
             {" "}
             <p className="text-[24px] font-semibold">
               Information We Collect and How It&apos;s Used
             </p>
-            Go Edu collects various details to enhance your experience. This
+            Schools123 collects various details to enhance your experience. This
             includes basic personal information, connection details, and
             user-generated content like feedback. Your information helps us
             deliver tailored services, notify you of updates, and ensure a
@@ -57,7 +57,7 @@ export default function page() {
             <p className="text-base font-semibold mb-1">
               Our Commitment to Data Security
             </p>
-            Safeguarding your information is central to our mission. Go Edu has
+            Safeguarding your information is central to our mission. Schools123 has
             established robust security measures to prevent unauthorized access
             or alteration. However, while we take extensive precautions,
             absolute security over the internet cannot be guaranteed.
@@ -66,7 +66,7 @@ export default function page() {
             <p className="text-[24px] font-semibold">
               Responsible Information Sharing
             </p>
-            Go Edu may share aggregated, anonymized information, or personal
+            Schools123 may share aggregated, anonymized information, or personal
             data with affiliates and trusted partners to support our services.
             Personal data sharing occurs only as outlined here, with your
             consent, or for specific services you&apos;ve requested.
@@ -75,7 +75,7 @@ export default function page() {
             <p className="text-[24px] font-semibold">
               Updates to Our Privacy Policy{" "}
             </p>
-            As part of our commitment to transparency, Go Edu regularly reviews
+            As part of our commitment to transparency, Schools123 regularly reviews
             and updates its privacy practices. Any significant updates will be
             noted on our homepage, ensuring that you remain informed.
           </p>

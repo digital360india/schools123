@@ -83,7 +83,7 @@ export default function Popup() {
 
             <div className="w-[80vw] h-[539px] hidden md:block z-0 ">
               <Image
-                src="/popup.svg"
+                src="/Bookconsultation.svg"
                 alt="School choice"
                 width={1000}
                 height={1000}

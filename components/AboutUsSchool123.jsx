@@ -7,7 +7,7 @@ const AboutUsSchool123 = () => {
   return (
     <>
       <div className="absolute">
-        <MascotAnimation />
+        {/* <MascotAnimation /> */}
       </div>
 
       <div className="bg-background-dark">
@@ -25,13 +25,13 @@ const AboutUsSchool123 = () => {
               alt="line"
               className="w-[350px] h-[250px] absolute bottom-40 left-20 hidden md:block"
             /> */}
-        <div className="flex justify-center items-center mb-20">
+        <div className="flex justify-center items-center mb-20 ">
           <Image
-            src="/aboutbg.svg"
+            src="/schools123logo.svg"
             alt="about"
             width={1000}
             height={1000}
-            className="w-[120px] h-[120px] md:w-[200px] md:h-[200px] "
+            className="w-[120px] h-[120px] md:w-[200px] md:h-[200px] rounded-full"
           />
         </div>
 
@@ -78,7 +78,7 @@ const AboutUsSchool123 = () => {
                 About Us
               </p>
               <img
-                src="/footerlogo.svg"
+                src="/schools123.png"
                 className="w-[100px] h-[130px] md:h-[160px] md:w-[150px]"
                 alt="Mission logo"
               />
@@ -176,8 +176,8 @@ const AboutUsSchool123 = () => {
                 Your Path to Informed Choices
               </p>
               <img
-                src="/joinus.svg"
-                className="w-[100px] h-[130px] md:h-[160px] md:w-[150px]"
+                src="/p.png"
+                className="w-[100px] h-[130px] md:h-[160px] md:w-[150px] bg-white"
                 alt="Join us logo"
               />
             </div>
