@@ -74,7 +74,7 @@ export function StarRatingschool({ rating, review }) {
             {whole_stars}
           </div>
           {review !== -1 && (
-            <span className="text-[13px] w-full  lg:flex justify-center text-black  font-semibold -mb-1">
+            <span className="text-[13px] w-full  lg:flex justify-center text-white  font-semibold -mb-1">
               ({review} reviews)
             </span>
           )}

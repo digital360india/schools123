@@ -280,15 +280,15 @@ const SchoolDetails = ({ school, reviews, city, id }) => {
     <>
       <section className="hidden md:block">
         <div
-          className="relative     grid place-content-center bg-no-repeat h-[60vh] mt-10"
+          className="relative     grid place-content-center bg-no-repeat h-[100vh] mt-10"
           style={{
-            backgroundImage: ` url("/aboutbanner.svg")`,
+            backgroundImage: ` url("/schools123banner.svg")`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
         >
           <div className=" ">
-            <div className="md:text-background-dark  text-center flex flex-col md:justify-center md:items-center ">
+            <div className="md:text-white  text-center flex flex-col md:justify-center md:items-center ">
               <div className="flex flex-col gap-6 font-bold p-2">
                 <p className="text-4xl  text-left  md:text-center">
                   {school?.name}
