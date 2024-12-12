@@ -61,7 +61,7 @@ export default function Blink() {
           </p>
         </div>
         <Image
-          src="/schools123.png"
+          src="/schools123logo.svg"
           alt="logo"
           width={1000}
           height={1000}
