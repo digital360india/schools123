@@ -6,9 +6,7 @@ import Image from "next/image";
 const AboutUsSchool123 = () => {
   return (
     <>
-      <div className="absolute">
-        {/* <MascotAnimation /> */}
-      </div>
+      <div className="absolute">{/* <MascotAnimation /> */}</div>
 
       <div className="bg-background-dark">
         <h1
@@ -62,20 +60,19 @@ const AboutUsSchool123 = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0 md:space-x-10">
             <div className="flex-1 order-2 md:order-none text-center md:text-left">
               <p className="text-[16px] sm:text-[40px] font-semibold text-center md:text-left hidden md:block">
-                About Us
+                Who We Are
               </p>
               <p className="text-[12px] sm:text-[20px] text-justify mt-4 ">
-                At Go Edu, we connect families with the top boarding schools
-                across India, creating a seamless journey for parents and
-                students to find the perfect educational fit. Our platform
-                provides in-depth school profiles and expert insights to
-                simplify this decision-making process.
+                Schools123 is an online platform that connects families with the
+                best boarding schools across India. We make it easy for parents
+                and students to find the right school with detailed and reliable
+                information.
               </p>
             </div>
             <div className="w-[2px] h-52 bg-[#323232] hidden md:block"></div>
             <div className="flex md:flex-col items-center space-y-2 md:space-y-4 order-1 md:order-none gap-10 md:gap-0">
               <p className="text-[16px] sm:text-[40px] font-semibold text-center md:text-left md:hidden">
-                About Us
+                Who We Are
               </p>
               <img
                 src="/schools123.png"
@@ -93,19 +90,19 @@ const AboutUsSchool123 = () => {
                 alt="Passion logo"
               />
               <p className="text-[16px] sm:text-[40px] font-semibold md:hidden">
-                Guided by Educational Excellence
+                Why Education Matters to Us
               </p>
             </div>
             <div className="w-[2px] h-52 bg-[#323232] hidden md:block"></div>
             <div className="flex-1 text-center md:text-left order-2 md:order-none">
               <p className="text-[16px] sm:text-[40px] font-semibold pb-4 hidden md:block">
-                Guided by Educational Excellence
+                Why Education Matters to Us
               </p>
               <p className="text-[12px] sm:text-[20px] text-justify">
-                Driven by a passion for quality education, Go Edu showcases the
-                diversity of boarding schools across India. Our team is
-                dedicated to building a resource that honors each school&apos;s
-                unique offerings.
+                At Schools123, we believe that quality education changes lives.
+                Our team is dedicated to showcasing top boarding schools in
+                India, offering families a wide range of options to suit their
+                preferences.
               </p>
             </div>
           </div>
@@ -113,19 +110,18 @@ const AboutUsSchool123 = () => {
           <div className="flex flex-col md:flex-row md:justify-between items-center  md:space-x-10">
             <div className="flex-1 order-2 md:order-none text-center md:text-left">
               <p className="text-[16px] sm:text-[40px] font-semibold text-center pb-4 md:text-left hidden md:block">
-                Making School Selection Easy
+                Our Values
               </p>
               <p className="text-[12px] sm:text-[20px] text-justify">
-                Our mission is to make the search for the right school easy,
-                informed, and enjoyable. We streamline the admission journey by
-                providing thorough information and simplifying school
-                comparisons.
+                We prioritize transparency and trust. Schools123 provides
+                up-to-date and accurate information to help parents and students
+                make well-informed and confident decisions.
               </p>
             </div>
             <div className="w-[2px] h-52 bg-[#323232] hidden md:block"></div>
             <div className="flex md:flex-col items-center order-1 md:order-none gap-10 md:gap-0">
               <p className="text-[16px] sm:text-[40px] font-semibold text-center md:text-left md:hidden">
-                Making School Selection Easy
+                Our Values
               </p>
               <img
                 src="./ourmission.svg"
@@ -143,18 +139,19 @@ const AboutUsSchool123 = () => {
                 alt="Consultation logo"
               />
               <p className="text-[16px] sm:text-[40px] font-semibold  md:hidden">
-                Join Our Community
+                What We Strive For
               </p>
             </div>
             <div className="w-[2px] h-52 bg-[#323232] hidden md:block"></div>
             <div className="flex-1 text-center md:text-left order-2 md:order-none">
               <p className="text-[16px] sm:text-[40px] font-semibold pb-4 hidden md:block">
-                Join Our Community
+                What We Strive For
               </p>
               <p className="text-[12px] sm:text-[20px] text-justify">
-                Go Edu invites students, parents, and schools to join our
-                mission of promoting high-quality boarding education. Join a
-                growing community that values excellence and educational growth.
+                Our mission is to simplify the search for the ideal boarding
+                school. Schools123 aims to be the go-to resource for boarding
+                school education in India, saving time for families and
+                providing schools with a platform to reach more students.
               </p>
             </div>
           </div>
@@ -162,24 +159,50 @@ const AboutUsSchool123 = () => {
           <div className="flex flex-col md:flex-row justify-between items-center md:space-x-10">
             <div className="flex-1 order-2 md:order-none text-center md:text-left">
               <p className="text-[16px] sm:text-[40px] font-semibold text-center md:text-left pb-4 hidden md:block">
-                Your Path to Informed Choices
+                Connecting Families and Schools
               </p>
               <p className="text-[12px] sm:text-[20px] text-justify">
-                We&apos;re committed to empowering families with knowledge and
-                confidence. With Go Edu, finding the right boarding school
-                becomes an informed, confident choice.
+                Schools123 bridges the gap between families and India&apos;s top
+                boarding schools. We bring together curated school options for
+                parents and students, while schools can showcase their unique
+                features.
               </p>
             </div>
             <div className="w-[2px] h-52 bg-[#323232] hidden md:block"></div>
             <div className="flex md:flex-col items-center order-1 md:order-none gap-10 md:gap-0">
               <p className="text-[16px] sm:text-[40px] font-semibold text-center md:text-left md:hidden">
-                Your Path to Informed Choices
+                Connecting Families and Schools
               </p>
               <img
                 src="/p.png"
                 className="w-[100px] h-[130px] md:h-[160px] md:w-[150px] bg-white"
                 alt="Join us logo"
               />
+            </div>
+          </div>
+
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0 md:space-x-10">
+            <div className="flex items-center justify-center order-1 md:order-none gap-8 md:gap-0">
+              <img
+                src="/consult.svg"
+                className="w-[100px] h-[100px] md:h-[160px] md:w-[150px]"
+                alt="Consultation logo"
+              />
+              <p className="text-[16px] sm:text-[40px] font-semibold  md:hidden">
+                Your Trusted Partner
+              </p>
+            </div>
+            <div className="w-[2px] h-52 bg-[#323232] hidden md:block"></div>
+            <div className="flex-1 text-center md:text-left order-2 md:order-none">
+              <p className="text-[16px] sm:text-[40px] font-semibold pb-4 hidden md:block">
+                Your Trusted Partner
+              </p>
+              <p className="text-[12px] sm:text-[20px] text-justify">
+                We offer expert guidance and support to families throughout the
+                school selection process. Our team is here to answer your
+                questions and help you make the best choice for your child&apos;s
+                future.
+              </p>
             </div>
           </div>
         </div>

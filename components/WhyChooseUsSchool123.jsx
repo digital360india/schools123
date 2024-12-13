@@ -10,33 +10,36 @@ const WhyChooseUsSchool123 = () => {
         </h1>
 
         <div className="flex justify-center items-center">
-          <div className="space-y-12 w-[200px] h-[410px]">
-            <div className="w-[200px] h-[141px]">
+          <div className="space-y-12 w-[210px] h-[485px]">
+            <div className="w-[230px] h-[141px]">
               <h1 className="text-[#323232] text-[1rem]">
-                Authentic Recommendations
+                Customized School Guidance
               </h1>
               <p className="text-[#898989] text-[12px]">
-                We prioritize your child&apos;s unique needs over school preferences.
-                Our unbiased recommendations are based solely on what suits your
-                child best, ensuring a genuine selection process.
+                At Schools123, we focus on understanding your child&apos;s unique
+                needs, providing personalized recommendations to help you find a
+                school that best supports their talents and goals.
               </p>
             </div>
             <div className="w-[200px] h-[141px]">
-              <h1 className="text-[#323232] text-[1rem]">Expert Counseling</h1>
-              <p className="text-[#898989] text-[12px]">
-                Our experienced consultants guide you through each step,
-                offering personalized counseling to help you feel confident
-                about every decision you make for your child&apos;s future.
-              </p>
-            </div>
-            <div className="w-[300px] h-[115px]">
               <h1 className="text-[#323232] text-[1rem]">
-                Mock Tests & Assessments
+                Trusted Educational Advisors
               </h1>
               <p className="text-[#898989] text-[12px]">
-                We offer mock tests and customized assessments to evaluate your
-                child&apos;s strengths and needs, allowing for a more accurate school
-                placement tailored to their potential.
+                Our experienced team offers expert guidance at every stage,
+                ensuring you have the support and knowledge needed to make
+                confident decisions about your child&apos;s education.
+              </p>
+            </div>
+            <div className="w-[250px] h-[145px]">
+              <h1 className="text-[#323232] text-[1rem]">
+                Targeted Assessments for Success
+              </h1>
+              <p className="text-[#898989] text-[12px]">
+                Schools123 provides tailored mock tests and assessments to
+                uncover your child&apos;s strengths and areas for improvement,
+                enabling a perfect match with schools that nurture their
+                potential.
               </p>
             </div>
           </div>
@@ -47,7 +50,7 @@ const WhyChooseUsSchool123 = () => {
               width={1000}
               height={1000}
               alt="img"
-              className="w-[150px] h-[420px]"
+              className="w-[150px] h-[400px]"
             />
           </div>
 
@@ -71,33 +74,35 @@ const WhyChooseUsSchool123 = () => {
             />
           </div>
 
-          <div className="space-y-14 w-[200px] h-[410px]">
+          <div className="space-y-14 w-[200px] h-[450px]">
             <div className="w-[280px] h-[138px] pt-1">
               <h1 className="text-[#323232] text-[1rem]">
-                Comprehensive School Insights
+                Detailed School Insights
               </h1>
               <p className="text-[#898989] text-[12px]">
-                Go Edu provides detailed information on each school, from
-                academic programs to extracurriculars, so you can make fully
-                informed choices for your child&apos;s education.
+                We equip you with in-depth school profiles, including academic
+                offerings, extracurricular opportunities, and campus facilities,
+                helping you make informed choices with confidence.
               </p>
             </div>
             <div className="w-[280px] h-[130px]">
               <h1 className="text-[#323232] text-[1rem]">
-                Transparent and Trustworthy Service
+                Fair and Transparent Services
               </h1>
               <p className="text-[#898989] text-[12px]">
-                Built on trust, our approach is straightforward and transparent.
-                We charge parents, not schools, to ensure our advice is honest,
-                reliable, and truly in your child&apos;s best interest.
+                Schools123 is built on trust and honesty. By charging families
+                instead of partnering with schools, we guarantee unbiased
+                recommendations focused solely on your child&apos;s success.
               </p>
             </div>
-            <div className="w-[300px] h-[135px]">
-              <h1 className="text-[#323232] text-[1rem]">End-to-End Support</h1>
+            <div className="w-[260px] h-[145px]">
+              <h1 className="text-[#323232] text-[1rem]">
+                Comprehensive Admission Assistance
+              </h1>
               <p className="text-[#898989] text-[12px]">
-                From initial consultations to application guidance and admission
-                follow-ups, we&apos;re here to support you throughout the entire
-                school selection process, making it stress-free and successful.
+                From your first consultation to the final admission process,
+                Schools123 offers end-to-end support, ensuring a seamless and
+                stress-free school selection journey.
               </p>
             </div>
           </div>

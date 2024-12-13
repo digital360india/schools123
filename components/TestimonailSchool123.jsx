@@ -10,28 +10,28 @@ const testimonials = [
     image:
       "https://res.cloudinary.com/eduminatti-com/image/upload/v1725877951/Edu123/Eduimages/WhatsApp_Image_2024-09-09_at_3.53.37_PM.jpg",
     description:
-      "Choosing the right school felt overwhelming until we found Go Edu. Their personalized approach and genuine recommendations put our minds at ease. We felt truly supported every step of the way.",
+      "Schools123 made finding the ideal boarding school for my son so much easier. The platform provided clear, reliable information that helped us make a confident choice. We're thrilled with the school he's attending!",
   },
   {
     name: "Priyangini",
     image:
       "https://res.cloudinary.com/eduminatti-com/image/upload/v1725877951/Edu123/Eduimages/WhatsApp_Image_2024-09-09_at_4.01.42_PM.jpg",
     description:
-      "I'm so grateful for Go Edus counseling team! They understood our needs and guided us through everything, from mock tests to final recommendations. Thanks to them, we found the perfect school match.",
+      "I was so overwhelmed by the number of boarding schools to choose from, but Schools123 helped simplify the process. The detailed insights and easy-to-use platform made it a stress-free experience!",
   },
   {
     name: "Priya Danu",
     image:
       "https://res.cloudinary.com/eduminatti-com/image/upload/v1725877951/Edu123/Eduimages/WhatsApp_Image_2024-09-09_at_3.59.49_PM.jpg",
     description:
-      "We were so confused before coming across Go Edu. Their clear, honest advice helped us understand our options and make the best decision with confidence. I couldn't have asked for a better experience!",
+      "Schools123 helped me discover the perfect school that matches my academic and personal interests. The platform gave me all the information I needed to make a smart decision for my future!",
   },
   {
     name: "Shivam Panwar",
     image:
       "https://res.cloudinary.com/eduminatti-com/image/upload/v1725877951/Edu123/Eduimages/WhatsApp_Image_2024-09-09_at_3.54.31_PM.jpg",
     description:
-      "From assessments to admission support, Go Edu made the entire process so easy. Their attention to detail and commitment to authenticity gave us complete confidence in our school choice. Highly recommend!",
+      "Thanks to Schools123, I found a boarding school with excellent facilities and a supportive environment. It was so easy to compare schools and choose the one that was right for me!",
   },
 ];
 
