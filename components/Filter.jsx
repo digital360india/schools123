@@ -273,10 +273,10 @@ export default function Filter({ filterdata, setfilterdata }) {
 
   return (
     <>
-      <div className="px-5 pt-3 text-[#000000]">
+      <div className="px-5 pt-3 md:pt-1 text-[#000000]">
         <div className=" space-y-3 sm:space-y-2 ">
           <p className="text-[22px] ">Filter</p>
-          <div className=" space-y-2">
+          <div className=" space-y-2 md:space-y-1">
             <p className="text-[14px] mt-5 font-semibold">Sort</p>
 
             <div className="flex justify-between">
@@ -591,7 +591,7 @@ export default function Filter({ filterdata, setfilterdata }) {
 
           <div className="space-y-3">
             <p className="text-[14px] font-semibold">Type</p>
-            <div className="flex flex-wrap gap-x-3 gap-y-5 text-[12px]">
+            <div className="flex flex-wrap gap-x-3 gap-y-5 md:gap-y-3 text-[12px]">
               <div className="flex justify-between min-w-[140px] ">
                 <p>Boarding</p>
                 <button
