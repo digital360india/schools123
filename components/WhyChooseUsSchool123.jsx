@@ -74,7 +74,7 @@ const WhyChooseUsSchool123 = () => {
             />
           </div>
 
-          <div className="space-y-14 w-[200px] h-[450px]">
+          <div className="space-y-14 w-[210px] h-[485px]">
             <div className="w-[280px] h-[138px] pt-1">
               <h1 className="text-[#323232] text-[1rem]">
                 Detailed School Insights

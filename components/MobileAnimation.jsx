@@ -6,34 +6,34 @@ import React from "react";
 const MobileAnimation = () => {
   const reasons = [
     {
-      title: "Authentic Recommendations",
+      title: "Customized School Guidance",
       description:
-        "We prioritize your child's unique needs over school preferences. Our unbiased recommendations are based solely on what suits your child best, ensuring a genuine selection process.",
+        "At Schools123, we focus on understanding your child's unique needs, providing personalized recommendations to help you find a school that best supports their talents and goals.",
     },
     {
-      title: "Expert Counseling",
+      title: "Trusted Educational Advisors",
       description:
-        "Our experienced consultants guide you through each step, offering personalized counseling to help you feel confident about every decision you make for your child's future.",
+        "Our experienced team offers expert guidance at every stage, ensuring you have the support and knowledge needed to make confident decisions about your child's education.",
     },
     {
-      title: "Mock Tests & Assessments",
+      title: "Targeted Assessments for Success",
       description:
-        "We offer mock tests and customized assessments to evaluate your child's strengths and needs, allowing for a more accurate school placement tailored to their potential.",
+        "Schools123 provides tailored mock tests and assessments to uncover your child's strengths and areas for improvement, enabling a perfect match with schools that nurture their potential.",
     },
     {
-      title: "Comprehensive School Insights",
+      title: "Detailed School Insights",
       description:
-        "Go Edu provides detailed information on each school, from academic programs to extracurriculars, so you can make fully informed choices for your child's education.",
+        "We equip you with in-depth school profiles, including academic offerings, extracurricular opportunities, and campus facilities, helping you make informed choices with confidence.",
     },
     {
-      title: "Transparent and Trustworthy Service",
+      title: "Fair and Transparent Services",
       description:
-        "Built on trust, our approach is straightforward and transparent. We charge parents, not schools, to ensure our advice is honest, reliable, and truly in your child's best interest.",
+        "Schools123 is built on trust and honesty. By charging families instead of partnering with schools, we guarantee unbiased recommendations focused solely on your child's success.",
     },
     {
-      title: "End-to-End Support",
+      title: "Comprehensive Admission Assistance",
       description:
-        "From initial consultations to application guidance and admission follow-ups, we're here to support you throughout the entire school selection process, making it stress-free and successful.",
+        "From your first consultation to the final admission process, Schools123 offers end-to-end support, ensuring a seamless and stress-free school selection journey.",
     },
 
   ];
