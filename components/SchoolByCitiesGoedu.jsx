@@ -46,7 +46,7 @@ const SchoolByCitiesGoedu = () => {
               School By Cities
             </h1>
 
-            <div className="grid grid-cols-2  justify-center items-center gap-12 mt-6">
+            <div className="grid grid-cols-2  justify-center items-center gap-10 mt-6">
               {cities.map((city, index) => (
                 <div key={index} className=" text-center">
                   <div className={`bounce-slow ${index} custom-shadow`}>
@@ -57,7 +57,7 @@ const SchoolByCitiesGoedu = () => {
                       alt="location banner"
                       width={1000}
                       height={1000}
-                      className="w-[140px] h-[150px] mx-4"
+                      className="w-[140px] h-[150px] mx-6"
                     />
                     </Link>
                   </div>
@@ -69,12 +69,12 @@ const SchoolByCitiesGoedu = () => {
                       alt="location bottom"
                       width={1000}
                       height={1000}
-                      className="w-[120px] h-[6px] mx-6"
+                      className="w-[120px] h-[6px] mx-8"
                     />
                   </div>
                   <Link href={`/category/boarding-schools-in-${city.name}`}>
                   {/* <p className="mt-4">{city.name}</p> */}
-                  <p className="mt-4 mx-10">{city.name.charAt(0).toUpperCase() + city.name.slice(1)}</p>
+                  <p className="mt-4 mx-16">{city.name.charAt(0).toUpperCase() + city.name.slice(1)}</p>
                 </Link>
                 </div>
               ))}
