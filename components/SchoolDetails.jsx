@@ -293,7 +293,7 @@ const SchoolDetails = ({ school, reviews, city, id }) => {
                 </p>
                 <div className="text-left flex justify-center ">
                   <button
-                    className="w-[180px]  shadow-md h-[40px] bg-background-dark text-white rounded-lg"
+                    className="w-[180px]  shadow-md h-[40px] bg-background-dark text-white rounded-lg border border-white"
                     // onClick={openPopup}
                     onClick={toggleBookingPopup}
                   >
@@ -322,18 +322,18 @@ const SchoolDetails = ({ school, reviews, city, id }) => {
         <div
           className="relative  grid place-content-center bg-no-repeat h-[65vh] mt-10"
           style={{
-            backgroundImage: `url("/aboutbanner.svg")`,
+            backgroundImage: `url("/aboutbanner1.svg")`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
         >
           <div className=" ">
-            <div className="text-background-dark text-center flex flex-col justify-center items-center ">
+            <div className="text-white text-center flex flex-col justify-center items-center ">
               <div className="flex flex-col gap-6 font-bold p-2">
                 <p className="text-3xl text-center">{school?.name}</p>
                 <div className="text-left flex justify-center ">
                   <button
-                    className="w-[180px]  shadow-md h-[40px] bg-background-dark text-white rounded-lg"
+                    className="w-[180px]  shadow-md h-[40px] bg-background-dark text-white rounded-lg border border-white"
                     // onClick={openPopup}
                     onClick={toggleBookingPopup}
                   >
