@@ -24,76 +24,76 @@ export default function page() {
             />
           </div>
           <p className="text-[24px] font-semibold">
-            Welcome to Schools123&apos;s Privacy Policy
+            Welcome to School123&apos;s Privacy Policy
           </p>
           <p>
-            At Schools123, protecting your privacy is a top priority. This policy
-            outlines the types of information we collect, how it&apos;s used,
-            and our commitment to secure your data. It applies specifically to
-            Schools123&apos;s website and related electronic communications.
+            Your trust is important to us at School123. This privacy policy
+            explains how we collect, use, and safeguard your information while
+            ensuring complete transparency. It applies to all interactions with
+            our website and associated digital services.
           </p>
           <p>
             {" "}
-            <p className="text-[24px] font-semibold">
-              Information We Collect and How It&apos;s Used
-            </p>
-            Schools123 collects various details to enhance your experience. This
-            includes basic personal information, connection details, and
-            user-generated content like feedback. Your information helps us
-            deliver tailored services, notify you of updates, and ensure a
-            smooth, personalized experience.
+            <p className="text-[24px] font-semibold">Information We Collect</p>
+            At School123, we collect only the information necessary to provide
+            you with a seamless and personalized experience. This may include
+            details like your name, email address, and preferences. Whether it&apos;s
+            helping you find the right school or sending important updates, your
+            information is used strictly to serve your needs.
           </p>
           <p>
             <p className="text-base font-semibold mb-1">
-              Automated Data Collection and Purpose
+              Understanding User Activity
             </p>
-            To improve functionality, our site employs technology that gathers
-            insights into device usage, browsing activity, and preferences. This
-            allows us to deliver optimized services, maintain account
-            communication, fulfill agreements, and keep you updated on any
-            website or service changes.
+            To continuously improve, we use technology that tracks browsing
+            activity and user preferences. These insights help us refine our
+            platform&apos;s functionality, create better tools, and offer
+            recommendations that align with your interests.
           </p>
           <p>
-            <p className="text-base font-semibold mb-1">
-              Our Commitment to Data Security
-            </p>
-            Safeguarding your information is central to our mission. Schools123 has
-            established robust security measures to prevent unauthorized access
-            or alteration. However, while we take extensive precautions,
-            absolute security over the internet cannot be guaranteed.
+            <p className="text-base font-semibold mb-1">Protecting Your Data</p>
+            Keeping your information secure is a priority. We use advanced
+            safeguards to protect against unauthorized access or misuse. While
+            no system can guarantee 100% security, we are committed to
+            minimizing risks and ensuring your data is handled responsibly.
           </p>
           <p>
-            <p className="text-[24px] font-semibold">
-              Responsible Information Sharing
-            </p>
-            Schools123 may share aggregated, anonymized information, or personal
-            data with affiliates and trusted partners to support our services.
-            Personal data sharing occurs only as outlined here, with your
-            consent, or for specific services you&apos;ve requested.
+            <p className="text-[24px] font-semibold">Sharing with Care</p>
+            We may share select information with trusted partners or service
+            providers solely to improve your experience. Rest assured, this is
+            done within strict boundaries and in line with our privacy
+            commitments. No data is shared without your knowledge or outside the
+            scope of what&apos;s necessary.
           </p>
           <p>
             <p className="text-[24px] font-semibold">
-              Updates to Our Privacy Policy{" "}
+              Evolving with Transparency
             </p>
-            As part of our commitment to transparency, Schools123 regularly reviews
-            and updates its privacy practices. Any significant updates will be
-            noted on our homepage, ensuring that you remain informed.
+            As our platform grows, we may make updates to this privacy policy to
+            reflect new features or changes in practices. We&apos;ll always ensure
+            you&apos;re informed about significant updates, keeping you in the loop
+            every step of the way.
           </p>
-          <p>
+          {/* <p>
             <p className="text-[24px] font-semibold">
-              Changes to Our Privacy Policy
+            Contact Us Anytime
             </p>
-            We regularly update our privacy policy on this page. Significant
-            changes in how we handle user information will be communicated
-            through a notice on the website's homepage.
-          </p>
+            If you have questions, concerns, or feedback about your privacy, we&apos;re here to help. Reach out to us using the details below:
+
+          </p> */}
           <p>
-            <p className="text-[24px] font-semibold">How to Reach Us</p>
-            We&apos;re here for any privacy-related inquiries or feedback. You
-            can contact us directly via email or phone for assistance: :
+            <p className="text-[24px] font-semibold"> Contact Us Anytime</p>
+            If you have questions, concerns, or feedback about your privacy,
+            we&apos;re here to help. Reach out to us using the details below:
             <br />
             <p>Email: info@goedu.in</p>
             <p>Contact Number:01353530324, 9557695360</p>
+          </p>
+
+          <p>
+            Thank you for being a valued part of the School123 community. We&apos;re
+            committed to protecting your privacy and supporting your educational
+            journey with integrity.
           </p>
         </div>
       </div>

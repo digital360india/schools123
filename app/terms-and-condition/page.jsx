@@ -23,14 +23,15 @@ const TermsAndCondition = () => {
             />
           </div>
           <p className="text-[24px] font-semibold">
-            Welcome to Schools123&apos;s Terms and Conditions
+            Welcome to School123&apos;s Terms and Conditions{" "}
           </p>
           <p>
-            Thank you for choosing Schools123 We&apos;re here to connect students
-            and parents with top boarding schools in India through an accessible
-            and trustworthy platform. By using our website, you agree to these
-            terms, which are designed to ensure a positive, efficient experience
-            for everyone.
+            We&apos;re delighted to have you as part of our community at School123.
+            By accessing our platform, you&apos;re stepping into a world of
+            opportunities where students and parents can explore and connect
+            with some of the best boarding schools across India. These terms
+            exist to ensure that your experience here is smooth, secure, and
+            rewarding.
           </p>
           {/* Please read these terms carefully. */}
           <p>
@@ -59,106 +60,109 @@ const TermsAndCondition = () => {
             </p> */}
             <p className="pb-4">
               <p className="text-[20px]  font-bold mb-1">
-                Embracing Responsible Use
+                Use with Care and Respect
               </p>
-              Schools123is dedicated to helping you make informed educational
-              choices. We ask that you engage with our platform respectfully,
-              maintaining a safe space for all users.
+              School123 is a space created to simplify educational decisions and
+              provide reliable guidance. We encourage all users to navigate our
+              platform responsibly and respectfully, ensuring a positive
+              environment for everyone involved.
             </p>
             <p className="pb-4">
               <p className="text-[20px] font-semibold mb-1">
-                Keeping Services Relevant and Evolving
+                Evolving with Your Needs
               </p>
-              To continually meet your needs, Schools123 may enhance or update its
-              offerings and features from time to time. Our goal is to provide
-              you with the most relevant and valuable services possible.
+              To serve you better, we&apos;re always working on enhancing our
+              features and offerings. Whether it&apos;s adding new tools or updating
+              existing resources, we aim to keep School123 aligned with the
+              ever-changing educational landscape.
             </p>
             <p className="pb-4">
               <p className="text-[20px] font-semibold mb-1">
-                Secure and Personalized Accounts
+                Your Account, Your Security{" "}
               </p>
-              When creating an account on Schools123, rest assured that we&apos;re
-              committed to providing a secure experience. We encourage you to
-              keep your login details private for added protection.
+              When you create an account with School123, you take the first step
+              toward accessing tailored solutions. To keep your journey secure,
+              we recommend safeguarding your credentials and updating your
+              information as needed.
             </p>
             <p className="pb-4">
               <p className="text-[20px] font-semibold mb-1">
-                Trusted Information, Every Time
+                Accuracy You Can Rely On
               </p>
-              Schools123 strives to offer the most accurate and up-to-date
-              information on schools, admissions, and related educational
-              insights. Our content is regularly updated to reflect the latest
-              developments, so you can confidently rely on our resources.
+              We take pride in providing precise, up-to-date information about
+              schools, programs, and admissions processes. Our team diligently
+              reviews and updates the content to ensure that the insights you
+              rely on are trustworthy and current.
             </p>
             <p className="pb-4">
               <p className="text-[20px] font-semibold mb-1">
-                Valuing Your Feedback
+                Your Voice Matters
               </p>
-              Your feedback matters to us! We welcome any comments or
-              suggestions, as they help us improve and better serve you.
+              At School123, we believe collaboration fuels improvement. Your
+              thoughts, suggestions, and feedback inspire us to refine our
+              platform, making it even more helpful for everyone.
             </p>
             <p className="pb-4">
               <p className="text-[20px] font-semibold mb-1">
-                A Commitment to Your Privacy
+                Prioritizing Privacy
               </p>
-              Schools123 respects your privacy. All information you provide is
-              handled with care, and we&apos;re here to answer any questions
-              about how your details are used to enhance your experience.
+              Your trust is valuable to us. Any information you share is treated
+              with utmost care and confidentiality, ensuring that your personal
+              data is used solely to enhance your experience.
             </p>{" "}
             <p className="pb-4">
               <p className="text-[20px] font-semibold mb-1">
-                Quick Corrections and Timely Updates
+                Committed to Clarity
               </p>
-              If there&apos;s ever an adjustment needed, our team at Schools123
-              promptly updates information to maintain clarity and accuracy for
-              all users.
+              If there&apos;s ever a discrepancy or an update needed, our team is
+              quick to make the necessary adjustments. We&apos;re dedicated to
+              ensuring that every detail on our platform remains clear and
+              correct.
             </p>
             <p className="pb-4">
               <p className="text-[20px] font-semibold mb-1">
-                Positive Engagement with Content
+                Positive Interactions Only
               </p>
-              At Schools123, our goal is to support your educational journey. We ask
-              that users engage with our site and its content positively,
-              keeping the experience beneficial for everyone involved.
+              School123 thrives on positive energy. We request users to engage
+              with our resources constructively, keeping the platform a helpful
+              and supportive space for all.
             </p>
             <p className="pb-4">
               <p className="text-[20px] font-semibold mb-1">
-                Supporting Uninterrupted Access
+                Continuity with Care
               </p>
-              While we strive for smooth, uninterrupted service, occasional
-              technical issues may occur. Rest assured, our team is committed to
-              resolving any interruptions as quickly as possible.
+              While we aim for uninterrupted service, occasional hiccups may
+              happen. Rest assured, our team is always on hand to resolve issues
+              swiftly and get you back on track.
             </p>
             <p className="pb-4">
               <p className="text-[20px] font-semibold mb-1">
-                Fostering a Safe and Trustworthy Platform
+                Adapting to Change
               </p>
-              Using Schools123 means joining a community dedicated to genuine
-              support in the educational journey. We appreciate your role in
-              keeping the experience safe and positive for everyone.
+              As education evolves, so do we. Our terms and conditions may be
+              updated periodically to reflect new developments or improvements.
+              Don&apos;t worry—we&apos;ll keep you informed of any major changes.
             </p>
             <p className="pb-4">
               <p className="text-[20px] font-semibold mb-1">
-                Adapting to Your Needs
+                Here to Support You
               </p>
-              We value flexibility and growth, so Schools123&apos;s terms may evolve
-              to best serve our users. For any major updates, we will make sure
-              you&apos;re informed and up-to-date on any adjustments to our
-              services.
+              We&apos;re more than just a platform; we&apos;re your partner in education.
+              If you have any questions, concerns, or simply want to share your
+              thoughts, feel free to connect with us:
             </p>
           </p>
           <p className="pb-4">
             <p className="text-[24px] font-semibold">Contact Us Anytime</p>
             If you have questions, feedback, or need further assistance,
-            we&apos;re here for you! Please reach out to us at:{" "}
-            <br />
+            we&apos;re here for you! Please reach out to us at: <br />
             <p>Email: info@goedu.in</p>
             <p>
               Contact Number: 01353530324, 9557695360
-             
-             <p className="pt-4">
-              Thank you for trusting Schools123 with your educational journey. We
-              look forward to supporting you every step of the way
+              <p className="pt-4">
+                Thank you for choosing School123 to guide you through the
+                important decisions of your educational journey. We&apos;re excited
+                to walk this path with you!
               </p>
             </p>
           </p>

@@ -35,10 +35,8 @@ export default function page() {
                 <p className="text-sm text-gray-300 pb-2">Author</p>
               </div>
               <div className=" text-[16px] mt-6">
-                <p className=" text-[20px] font-bold">
-                Know More
-                </p>
-                
+                <p className=" text-[20px] font-bold">Know More</p>
+
                 <a target="_blank" href="https://www.negivaibhav.com/">
                   <p className="text-blue-500 underline">negivaibhav.com</p>
                 </a>
@@ -50,46 +48,44 @@ export default function page() {
                 <p className="text-black">Educational Content Specialist</p>
               </div>
               <p>
-                Hi, I&apos;m Vaibhav Negi! With a deep passion for education and
-                a knack for crafting meaningful content, I have spent over three
-                years in digital marketing, focusing primarily on the
-                educational sector. Writing has always been my way of connecting
-                with people, and throughout my career, I've been fortunate to
-                create impactful content that helps students, parents, and
-                educators alike.
+                Hello there! I&apos;m Vaibhav Negi, an education enthusiast and
+                content creator with over three years of experience in digital
+                marketing, specifically in the education sector. My journey into
+                the world of content creation began with a simple goal: to
+                connect with people through words. Over time, I discovered a
+                true passion for crafting impactful content that empowers
+                students, parents, and educators alike.
               </p>
               <p>
-                My journey in content creation began in digital marketing, where
-                I quickly found my true calling within the education niche.
-                Since then, I&apos;ve collaborated with several educational
-                platforms, offering content that guides students and families,
-                explores emerging trends, and supports educators in their
-                mission. My goal is to create content that informs and inspires
-                curiosity and confidence.
+                From guiding families to choose the perfect school to exploring
+                the latest trends in education, I&apos;ve had the privilege of
+                collaborating with various platforms dedicated to shaping young
+                minds. My work is driven by the belief that meaningful content
+                can inspire confidence and spark curiosity in its readers.
               </p>
               <p>
-                At Go Edu, I specialize in creating insightful, trustworthy, and
-                contextually relevant content for the Indian education
-                landscape. My writing is tailored to empower parents and
-                students in selecting the best boarding schools by providing
-                in-depth details on each institution&apos;s culture, curriculum,
-                and offerings. I&apos;m committed to ensuring each article,
-                guide, and review is as enlightening as it is engaging,
-                capturing the unique aspects of India&apos;s diverse educational
-                framework.
+                At Schools123, my focus lies in simplifying the school selection
+                process for families. By providing detailed insights into a
+                school&apos;s culture, academics, and unique features, I aim to
+                bridge the gap between questions and answers, making
+                decision-making less overwhelming. Whether it&apos;s a comprehensive
+                guide or a thoughtful review, every piece of content I create is
+                tailored to India&apos;s diverse education landscape, ensuring it&apos;s
+                both informative and engaging.
               </p>
               <p>
-                Beyond education, I&apos;ve expanded my experience as a
-                freelance writer with Sportskeeda, diving into the sports domain
-                and refining my versatility in adapting to different audiences.
-                This diversity in experience has sharpened my ability to
-                resonate with readers, no matter the topic while maintaining
-                quality and authenticity in each piece.
+                Beyond the education niche, I&apos;ve also had the opportunity to
+                explore sports writing as a freelancer with Sportskeeda. This
+                experience has broadened my ability to connect with varied
+                audiences while maintaining authenticity and quality in every
+                piece of writing.
               </p>
               <p>
-                At Go Edu, my mission is to simplify and enrich the school
-                selection process by delivering content that helps students and
-                their families make informed decisions.
+                At Schools123, my mission is clear: to make school selection an
+                enriching experience for families. By providing trustworthy,
+                well-researched, and contextually relevant content, I hope to be
+                a helpful guide for students and their parents in finding the
+                best fit for their educational journey.
               </p>
             </div>
           </div>
