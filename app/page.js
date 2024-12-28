@@ -101,7 +101,7 @@ export default function Home() {
       <FormSchool123 />
       <MapSchool123 />
       <WhyChooseUsSchool123 />
-      <div className="md:hidden">
+      <div className="xl:hidden">
         <MobileAnimation />
       </div>
       <AboutSchool123 />
