@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const HeroSchool123 = () => {
   return (
-    <div className="relative mt-24 w-full h-full">
+    <div className="relative mt-20 w-full h-full">
       <Image
         src="/heroschool123.png"
         alt="School choice"
@@ -15,7 +15,7 @@ const HeroSchool123 = () => {
       />
 
      
-      <div className="md:hidden">
+      <div className="md:hidden ">
       <Image
         src="/heroschool123.png"
         alt="School choice"
