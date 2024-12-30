@@ -99,11 +99,11 @@ const Navbar = () => {
           <div className="flex items-center justify-between py-7 ">
             <Link href={"/"}>
               <img
-                className="w-14 lg:w-[78px]"
-                src="/schools123.png"
+                className="w-14 lg:w-[68px]"
+                src="/schools123.svg"
                 alt="Logo"
-                width={88}
-                height={56}
+                width={80}
+                height={50}
               />
             </Link>
           </div>

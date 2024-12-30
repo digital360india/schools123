@@ -75,7 +75,7 @@ const AboutUsSchool123 = () => {
                 Who We Are
               </p>
               <img
-                src="/schools123.png"
+                src="/schools123.svg"
                 className="w-[100px] h-[130px] md:h-[160px] md:w-[150px]"
                 alt="Mission logo"
               />
