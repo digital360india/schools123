@@ -16,7 +16,7 @@ export async function generateMetadata() {
     title: "Discover Top Boarding Schools Instantly | Schools123",
     description:
       "Explore your dream boarding school in no time with Schools123. Open the door to limitless educational options and begin your path to a brighter future today.",
-    icons: [{ rel: "icon", url: "/schools123logo.png" }],
+    icons: [{ rel: "icon", url: "/schools123logo.svg" }],
     other: [
       {
         name: "viewport",
