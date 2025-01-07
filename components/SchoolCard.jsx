@@ -53,7 +53,6 @@ const SchoolCard = ({ categoryData }) => {
       setCitySlug(city[city.length - 1]);
     }
   }, [categoryData]);
-
   useEffect(() => {
     if (citySlug) {
       base(citySlug)
@@ -75,6 +74,18 @@ const SchoolCard = ({ categoryData }) => {
                 categoryData.slug === `full-boarding-schools-in-${citySlug}`
               ) {
                 return item?.fields?.full_boarding_schools === "checked";
+              } else if (
+                categoryData.slug === `icse-boarding-schools-in-${citySlug}`
+              ) {
+                return item?.fields?.icse_isc_schools === "checked";
+              } else if (
+                categoryData.slug === `coed-boarding-schools-in-${citySlug}`
+              ) {
+                return item?.fields?.coed_schools === "checked";
+              } else if (
+                categoryData.slug === `cbse-boarding-schools-in-${citySlug}`
+              ) {
+                return item?.fields?.cbse_schools === "checked";
               } else {
                 return true;
               }
@@ -115,6 +126,7 @@ const SchoolCard = ({ categoryData }) => {
         );
     }
   }, [citySlug]);
+
 
   return (
     <>
