@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import school123bg from "@/public/school123bg.svg";
-import SchoolByCitiesGoedu from "./SchoolByCitiesGoedu";
+import SchoolByCitiesSchools123 from "./SchoolByCitiesSchools123";
 
 const AboutSchool123 = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -100,7 +100,7 @@ const AboutSchool123 = () => {
       </div>
 
       <div className="md:hidden">
-        <SchoolByCitiesGoedu />
+        <SchoolByCitiesSchools123 />
       </div>
 
       <div className="hidden md:block">

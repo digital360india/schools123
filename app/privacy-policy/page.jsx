@@ -5,7 +5,7 @@ export async function generateMetadata() {
   return {
     title: "Privacy Policies",
     description:
-      "Welcome to GoEdu - The ultimate guide to the best schools in the United Arab Emirates! ",
+      "Welcome to Schools123 - The ultimate guide to the best schools in the United Arab Emirates! ",
   };
 }
 
@@ -86,7 +86,7 @@ export default function page() {
             If you have questions, concerns, or feedback about your privacy,
             we&apos;re here to help. Reach out to us using the details below:
             <br />
-            <p>Email: info@goedu.in</p>
+            <p>Email: schools123.com</p>
             <p>Contact Number:01353530324, 9557695360</p>
           </p>
 

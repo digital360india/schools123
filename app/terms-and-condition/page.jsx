@@ -4,7 +4,7 @@ export async function generateMetadata() {
   return {
     title: "Terms and Condition",
     description:
-      "Welcome to GoEdu - The ultimate guide to the best schools in the United Arab Emirates! ",
+      "Welcome to Schools123 - The ultimate guide to the best schools in the United Arab Emirates! ",
   };
 }
 
@@ -156,7 +156,7 @@ const TermsAndCondition = () => {
             <p className="text-[24px] font-semibold">Contact Us Anytime</p>
             If you have questions, feedback, or need further assistance,
             we&apos;re here for you! Please reach out to us at: <br />
-            <p>Email: info@goedu.in</p>
+            <p>Email: schools123.com</p>
             <p>
               Contact Number: 01353530324, 9557695360
               <p className="pt-4">

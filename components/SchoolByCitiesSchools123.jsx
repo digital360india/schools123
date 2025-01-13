@@ -3,7 +3,7 @@ import schoolbycities1 from "@/public/schoolbycities1.svg";
 import Image from "next/image";
 import Link from "next/link";
 
-const SchoolByCitiesGoedu = () => {
+const SchoolByCitiesSchools123 = () => {
   const cities = [
     {
       name: "india",
@@ -133,4 +133,4 @@ const SchoolByCitiesGoedu = () => {
   );
 };
 
-export default SchoolByCitiesGoedu;
+export default SchoolByCitiesSchools123;
