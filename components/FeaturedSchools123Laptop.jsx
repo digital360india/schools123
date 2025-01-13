@@ -220,4 +220,4 @@ const FeaturedSchools123Laptop = () => {
   );
 };
 
-export default Featuredscools123Laptop;
+export default FeaturedSchools123Laptop;
