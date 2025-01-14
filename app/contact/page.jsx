@@ -47,7 +47,7 @@ const Contact = () => {
                 </li>
                 <li className="flex items-center gap-3">
                   <SlEnvolope className="h-8 w-5 " />
-                  <div>schools123.com</div>
+                  <div>schools123india@gmail.com</div>
                 </li>
                
 

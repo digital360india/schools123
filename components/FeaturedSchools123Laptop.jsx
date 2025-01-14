@@ -172,7 +172,6 @@ const FeaturedSchools123Laptop = () => {
       tl.kill();
     };
   }, []);
-
   return (
     <>
       <div className="h-[468vh] hidden md:block">
