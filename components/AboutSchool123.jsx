@@ -93,8 +93,14 @@ const AboutSchool123 = () => {
           </button>
 
           <div className="p-[46px] text-justify overflow-y-auto h-full text-[13px]">
-          Schools123 is your reliable companion for discovering the finest boarding schools across India. Our intuitive platform simplifies your search by providing comprehensive details and up-to-date information about leading institutions. Whether you value exceptional academics, world-class facilities, or a caring environment, Schools123 empowers you to make informed decisions for your child&apos;s education. Let us support you in finding the ideal boarding school to shape a successful and bright future.
-
+            Schools123 is your reliable companion for discovering the finest
+            boarding schools across India. Our intuitive platform simplifies
+            your search by providing comprehensive details and up-to-date
+            information about leading institutions. Whether you value
+            exceptional academics, world-class facilities, or a caring
+            environment, Schools123 empowers you to make informed decisions for
+            your child&apos;s education. Let us support you in finding the ideal
+            boarding school to shape a successful and bright future.
           </div>
         </div>
       </div>
@@ -226,8 +232,15 @@ const AboutSchool123 = () => {
               <div
                 className={`h-full px-[100px] overflow-y-auto  text-[1rem]  `}
               >
-               Schools123 is your reliable companion for discovering the finest boarding schools across India. Our intuitive platform simplifies your search by providing comprehensive details and up-to-date information about leading institutions. Whether you value exceptional academics, world-class facilities, or a caring environment, Schools123 empowers you to make informed decisions for your child&apos;s education. Let us support you in finding the ideal boarding school to shape a successful and bright future.
-
+                Schools123 is your reliable companion for discovering the finest
+                boarding schools across India. Our intuitive platform simplifies
+                your search by providing comprehensive details and up-to-date
+                information about leading institutions. Whether you value
+                exceptional academics, world-class facilities, or a caring
+                environment, Schools123 empowers you to make informed decisions
+                for your child&apos;s education. Let us support you in finding
+                the ideal boarding school to shape a successful and bright
+                future.
                 <div className="flex justify-center items-center text-[#323232] space-x-60 pt-10">
                   <div className="space-y-1">
                     <Image

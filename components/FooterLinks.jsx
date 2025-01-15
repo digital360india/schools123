@@ -55,86 +55,6 @@ export const FooterLinks = () => {
             </div>
           </div>
 
-          {/* <div className="lg:w-[25vw]     sm:flex sm:justify-center ">
-            <div className="flex flex-col">
-              <Link
-                href={
-                  "https://www.schools123.com/category/boarding-schools-in-chandigarh"
-                }
-              >
-                Boarding Schools in Chandigarh
-              </Link>
-              <Link
-                href={
-                  "https://www.schools123.com/category/boarding-schools-in-mumbai"
-                }
-              >
-                Boarding Schools in Mumbai
-              </Link>
-              <Link
-                href={
-                  "https://www.schools123.com/category/boarding-schools-in-faridabad"
-                }
-              >
-                Boarding Schools in Faridabad
-              </Link>
-              <Link
-                href={
-                  "https://www.schools123.com/category/boarding-schools-in-nainital"
-                }
-              >
-                Boarding Schools in Nainital
-              </Link>
-              <Link
-                href={
-                  "https://www.schools123.com/category/boarding-schools-in-varanasi"
-                }
-              >
-                Boarding Schools in Varanasi
-              </Link>
-            </div>
-          </div> */}
-
-          {/* <div className="   flex  sm:justify-center lg:w-[25vw]">
-            <div className="flex flex-col">
-              <Link
-                href={
-                  "https://www.schools123.com/category/boarding-schools-in-kolkata"
-                }
-              >
-                Boarding Schools in Kolkata
-              </Link>
-              <Link
-                href={
-                  "https://www.schools123.com/category/boarding-schools-in-udaipur"
-                }
-              >
-                Boarding Schools in Udaipur
-              </Link>
-              <Link
-                href={
-                  "https://www.schools123.com/category/boarding-schools-in-jaipur"
-                }
-              >
-                Boarding Schools in Jaipur
-              </Link>
-              <Link
-                href={
-                  "https://www.schools123.com/category/boarding-schools-in-panchgani"
-                }
-              >
-                Boarding Schools in Panchgani
-              </Link>
-              <Link
-                href={
-                  "https://www.schools123.com/category/boarding-schools-in-sikar"
-                }
-              >
-                Boarding Schools in Sikar
-              </Link>
-            </div>
-          </div> */}
-
           <div className=" flex sm:justify-center sm:mt-0  lg:w-[27vw]">
             <div className="flex flex-col">
               <Link
@@ -182,7 +102,7 @@ export const FooterLinks = () => {
 
         <div className="text-center  pb-4">
           <p>
-            <a href="mailto:schools123.com">info@Schools.com</a>
+            <a href="mailto:schools123india@gmail.com">schools123india@gmail.com</a>
           </p>
         </div>
       </div>
