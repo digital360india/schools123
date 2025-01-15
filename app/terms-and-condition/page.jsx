@@ -35,29 +35,7 @@ const TermsAndCondition = () => {
           </p>
           {/* Please read these terms carefully. */}
           <p>
-            {/* {" "}
-            <p className="text-base font-semibold mb-1">Terms Acceptance</p>
-            By using our services, you agree to adhere to the terms outlined
-            here. If you disagree with these terms, please refrain from using
-            our website and services. */}
-            {/* <p>
-              <p className="text-base font-semibold mb-1">Usage of Website</p>
-              <p>
-                {" "}
-                Lawful Usage: You agree to use our website and services solely
-                for lawful purposes.
-              </p>
-              Prohibited Activities: You must not transmit any malicious code or
-              engage in activities that disrupt the operation of our website.
-            </p> */}
-            {/* <p>
-              <p className="text-base font-semibold mb-1">
-                Service Changes and Pricing
-              </p>{" "}
-              Edu 123 reserves the right to modify or discontinue any service or
-              feature without prior notice. Prices for our services are subject
-              to change without warning.
-            </p> */}
+           
             <p className="pb-4">
               <p className="text-[20px]  font-bold mb-1">
                 Use with Care and Respect
@@ -156,7 +134,7 @@ const TermsAndCondition = () => {
             <p className="text-[24px] font-semibold">Contact Us Anytime</p>
             If you have questions, feedback, or need further assistance,
             we&apos;re here for you! Please reach out to us at: <br />
-            <p>Email: schools123.com</p>
+            <p>Email:schools123india@gmail.com</p>
             <p>
               Contact Number: 01353530324, 9557695360
               <p className="pt-4">

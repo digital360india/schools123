@@ -86,7 +86,7 @@ export default function page() {
             If you have questions, concerns, or feedback about your privacy,
             we&apos;re here to help. Reach out to us using the details below:
             <br />
-            <p>Email: schools123.com</p>
+            <p>Email:schools123india@gmail.com</p>
             <p>Contact Number:01353530324, 9557695360</p>
           </p>
 
