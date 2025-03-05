@@ -41,12 +41,12 @@ const SchoolByCitiesSchools123 = () => {
           className="w-full h-auto  bg-no-repeat bg-cover bg-center"
           style={{ backgroundImage: `url(${schoolbycities1.src})` }}
         >
-          <div className="p-12">
-            <h1 className="text-center text-[1rem] text-[#323232]">
+          <div className="md:p-12 py-8">
+          <h1 className="text-center text-2xl font-bold text-[#323232]">
               School By Cities
             </h1>
 
-            <div className="grid grid-cols-2  justify-center items-center gap-10 mt-6">
+            <div className="md:grid md:grid-cols-2 flex justify-center  items-center flex-wrap md:gap-12 mt-6">
               {cities.map((city, index) => (
                 <div key={index} className=" text-center">
                   <div className={`bounce-slow ${index} custom-shadow`}>
@@ -57,7 +57,7 @@ const SchoolByCitiesSchools123 = () => {
                       alt="location banner"
                       width={1000}
                       height={1000}
-                      className="w-[140px] h-[150px] mx-6"
+                      className="w-[120px] h-[150px] mx-6 md:mx-4"
                     />
                     </Link>
                   </div>
@@ -69,12 +69,12 @@ const SchoolByCitiesSchools123 = () => {
                       alt="location bottom"
                       width={1000}
                       height={1000}
-                      className="w-[120px] h-[6px] mx-8"
+                      className="w-[105px] h-[6px] mx-7 md:mx-6"
                     />
                   </div>
                   <Link href={`/category/boarding-schools-in-${city.name}`}>
                   {/* <p className="mt-4">{city.name}</p> */}
-                  <p className="mt-4 mx-16">{city.name.charAt(0).toUpperCase() + city.name.slice(1)}</p>
+                  <p className="mt-4 mx-10">{city.name.charAt(0).toUpperCase() + city.name.slice(1)}</p>
                 </Link>
                 </div>
               ))}

@@ -82,8 +82,8 @@ const FormSchool123 = () => {
 
   return (
     <>
-      <div className="flex gap-20 justify-between items-center">
-        <div className="w-[795px] h-[539px] md:block hidden  ">
+      <div className="relative w-full h-[510px] md:h-[539px]">
+      <div className="absolute inset-0 z-0 md:block hidden w-[50%]">
           <Image
             src="/Bookconsultation1.png"
             alt="School choice"
@@ -93,11 +93,11 @@ const FormSchool123 = () => {
           />
         </div>
 
-        <div className="md:w-1/2 w-full p-6 bg-white">
-          <div className="md:hidden block w-[226px] text-[20px]">
+        <div className="absolute md:right-10  top-1/2 transform -translate-y-1/2 z-10 md:w-fit w-full p-6 bg-white bg-opacity-90 rounded-lg shadow-lg">
+          <div className="md:hidden block font-bold text-center text-[20px]">
             Confuse to choose the Best School ?
           </div>
-          <h3 className="md:text-xl mt-8 text-[12px] mb-6 text-[#323232]">
+          <h3 className="md:text-xl  text-[16px] my-6 text-[#323232]">
             Fill this form and get in touch with our counsellor
           </h3>
           <form onSubmit={handleSubmit} className="space-y-7">
@@ -108,7 +108,7 @@ const FormSchool123 = () => {
               placeholder="Your name"
               value={formData.name}
               onChange={handleChange}
-              className="p-2 border-b-2 border-[#D9D9D9] w-full h-[39px] placeholder:text-[#898989] sm:border sm:rounded lg:w-[498px] sm:border-[#D9D9D9]"
+              className="p-2 border border-[#D9D9D9] w-full h-[39px] placeholder:text-[#898989] sm:border sm:rounded lg:w-[498px] sm:border-[#D9D9D9]"
             />
             {/* <input
             type="email"
@@ -116,11 +116,11 @@ const FormSchool123 = () => {
             placeholder="Your email"
             value={formData.email}
             onChange={handleChange}
-            className="p-2 border-b-2 border-[#D9D9D9] w-full h-[39px] placeholder:text-[#898989] sm:border sm:rounded sm:w-[462px] sm:border-[#D9D9D9]"
+            className="p-2 border border-[#D9D9D9] w-full h-[39px] placeholder:text-[#898989] sm:border sm:rounded sm:w-[462px] sm:border-[#D9D9D9]"
           /> */}
              <div className="flex w-full lg:w-[498px]">
               <PhoneInput
-                className="w-full border-[#D9D9D9] border-b-2 rounded md:border md:rounded"
+                className="w-full border-[#D9D9D9] border rounded md:border md:rounded"
                 country={"in"}
                 value={formData.phone}
                 onChange={handlePhoneChange}
@@ -130,7 +130,7 @@ const FormSchool123 = () => {
                   border: "none",
                 }}
                 buttonStyle={{
-                  border: "2px solid #D9D9D9",
+                  border: "1px solid #D9D9D9",
                 }}
               />
             </div>
@@ -139,7 +139,7 @@ const FormSchool123 = () => {
               name="class"
               value={formData.class}
               onChange={handleChange}
-              className="p-2 border-b-2 border-[#D9D9D9] rounded md:w-[143px] w-[120px] h-[39px] placeholder:text-[#898989] md:border md:rounded "
+              className="p-2 border border-[#D9D9D9] rounded md:w-[143px] w-[120px] h-[39px] placeholder:text-[#898989] md:border md:rounded "
             >
               <option value="" className="text-[#898989]">
                 Class
@@ -150,7 +150,7 @@ const FormSchool123 = () => {
               name="board"
               value={formData.board}
               onChange={handleChange}
-              className="p-2 border-b-2 border-[#D9D9D9] rounded md:w-[143px] w-[120px] h-[39px] placeholder:text-[#898989] md:border md:rounded"
+              className="p-2 border border-[#D9D9D9] rounded md:w-[143px] w-[120px] h-[39px] placeholder:text-[#898989] md:border md:rounded"
             >
               <option value="" className="text-[#898989]">
                 BOARD
