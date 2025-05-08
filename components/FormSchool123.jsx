@@ -62,7 +62,18 @@ const FormSchool123 = () => {
         formData
       );
 
-      if (emailResponse.status === 200) {
+      const lmsResponse = await axios.post(
+        "https://digitalleadmanagement.vercel.app/api/add-lead",
+        {
+          name: formData.name,
+          phoneNumber: formData.phone,
+          url: window.location.href,
+          source: "Schools123 - Confuse to choose the Best School",
+          date: new Date().toISOString(),
+        }
+      );
+
+      if (emailResponse.status === 200 && lmsResponse.status === 200) {
         toast.success("Form Submitted Successfully!");
         setFormData({
           name: "",

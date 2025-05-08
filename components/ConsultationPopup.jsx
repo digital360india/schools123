@@ -67,7 +67,20 @@ export default function ConsultationPopup({ setClose }) {
         formData
       );
 
-      if (emailResponse.status === 200) {
+      const lmsResponse = await axios.post(
+        "https://digitalleadmanagement.vercel.app/api/add-lead",
+        {
+          name: formData.name,
+          phoneNumber: formData.phone,
+          url: window.location.href,
+          source: "Schools123 - Get Consultation Popup",
+          email: formData.email,
+          currentClass: formData.classes,
+          date: new Date().toISOString(),
+        }
+      );
+
+      if (emailResponse.status === 200 && lmsResponse.status === 200) {
         toast.success("Form Submitted Successfully!");
         setFormData({
           name: "",
