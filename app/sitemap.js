@@ -11,7 +11,7 @@ async function fetchAllRecords(tableName) {
 }
 
 export default async function sitemap() {
-  const hostname = "edu123.in";
+  const hostname = "schools123.com";
 
   const categoryData = await fetchAllRecords("category 2");
   const categoryLinks = categoryData.map((sing) => {
@@ -23,33 +23,33 @@ export default async function sitemap() {
   });
 
   const staticLinks = [
-    { url: "https://edu123.in", lastModified: "2023-12-21T11:58:24.000Z" },
+    { url: "https://schools123.com", lastModified: "2023-12-21T11:58:24.000Z" },
     {
-      url: "https://edu123.in/about",
+      url: "https://schools123.com/about",
       lastModified: "2023-12-21T11:58:24.000Z",
     },
     {
-      url: "https://edu123.in/compare-schools",
+      url: "https://schools123.com/compare-schools",
       lastModified: "2023-12-21T11:58:24.000Z",
     },
     {
-      url: "https://edu123.in/privacy-policy",
+      url: "https://schools123.com/privacy-policy",
       lastModified: "2023-12-21T11:58:24.000Z",
     },
     {
-      url: "https://edu123.in/contact",
+      url: "https://schools123.com/contact",
       lastModified: "2023-12-21T11:58:24.000Z",
     },
     {
-      url: "https://edu123.in/terms-and-condition",
+      url: "https://schools123.com/terms-and-condition",
       lastModified: "2023-12-21T11:58:24.000Z",
     },
     {
-      url: "https://edu123.in/author",
+      url: "https://schools123.com/author",
       lastModified: "2023-12-21T11:58:24.000Z",
     },
     {
-      url: "https://edu123.in/school/sitemap.xml",
+      url: "https://schools123.com/school/sitemap.xml",
       lastModified: "2023-12-21T11:58:24.000Z",
     },
   ];
