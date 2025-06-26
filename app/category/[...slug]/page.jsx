@@ -1,4 +1,4 @@
-https://www.schools123.comimport { base } from "@/app/api/airtable.jsx";
+import { base } from "@/app/api/airtable.jsx";
 import Hero from "@/components/Hero";
 import FAQ from "@/components/FAQ";
 import CategoryPage from "@/components/CategoryPage";
@@ -24,17 +24,17 @@ export async function generateMetadata({ params }) {
     keywords: categoryData?.keywords,
     authors: [{ name: categoryData?.author }],
     alternates: {
-      canonical: `https://www.edu123.in/category/${params.slug}`,
+      canonical: `https://www.schools123.com/category/${params.slug}`,
     },
     openGraph: {
       title: categoryData?.title,
       description: categoryData?.meta_description,
-      url: `https://www.edu123.in/${params.slug}`,
+      url: `https://www.schools123.com/${params.slug}`,
       locale: "en_US",
       type: "website",
       images: [{ url: categoryData?.featuredImg }],
-      siteName: "Edu123",
-      siteName: "Edu123 School Search Portal",
+      siteName: "Schools123",
+      siteName: "Schools123 School Search Portal",
     },
     robots: {
       googleBot: {
@@ -48,8 +48,8 @@ export async function generateMetadata({ params }) {
       description: categoryData?.meta_description,
       card: categoryData?.featuredImg,
       image: categoryData?.featuredImg,
-      site: "@edu123",
-      creator: "@edu123",
+      site: "@schools123",
+      creator: "@schools123",
     },
   };
 }
