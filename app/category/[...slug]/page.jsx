@@ -1,4 +1,4 @@
-import { base } from "@/app/api/airtable.jsx";
+https://www.schools123.comimport { base } from "@/app/api/airtable.jsx";
 import Hero from "@/components/Hero";
 import FAQ from "@/components/FAQ";
 import CategoryPage from "@/components/CategoryPage";
