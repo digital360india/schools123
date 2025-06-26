@@ -1,4 +1,4 @@
-https://www.schools123.com// import SchoolDetails from "@/components/SchoolDetails";
+// import SchoolDetails from "@/components/SchoolDetails";
 // import { base, baseRe } from "@/app/api/airtable";
 
 // let id;
@@ -396,7 +396,7 @@ export async function generateMetadata({ params }) {
     description: categoryData?.Meta_description,
     keywords: categoryData?.Meta_keywords,
     alternates: {
-      canonical: `https://www.edu123.in/school/${params.slug[0]}/${params.slug[1]}`,
+      canonical: `https://www.schools123.com/school/${params.slug[0]}/${params.slug[1]}`,
     },
     robots: {
       index: true,
@@ -408,7 +408,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       title: "Find the Best Boarding Schools in Seconds | Edu123",
       description: "Find your dream boarding school in seconds with Edu123. Unlock a world of educational possibilities. Your path to the perfect education begins here.",
-      url: "https://www.edu123.in/",
+      url: "https://www.schools123.com/",
       images: [
         `https://res.cloudinary.com/infoedu123/image/upload/v1703243169/EDU123/edu123HomeD.png`,
       ],
