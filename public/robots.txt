@@ -1,4 +1,4 @@
 https://www.schools123.comUser-agent:*
 Allow: /
 
-Sitemap: https://www.edu123.in/sitemap.xml
+Sitemap: https://www.schools123.com/sitemap.xml
